@@ -83,7 +83,7 @@ class memory(object):
 
     @classproperty
     def percent(cls):
-        return "{}%".format(cls.memory.percent)
+        return "{0:.2f}%".format(100.0 - cls.memory.percent)
 
 
 class network(object):
