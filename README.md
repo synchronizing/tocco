@@ -57,7 +57,7 @@ print(tocco.network.sent_last_sec)
 print(tocco.network.received_last_sec)
 ```
 
-To display any of the above information on your `BetterTouchTool` preset, simply add a "Shell Script/Task Widget" and then paste the following in (using `tocco.battery.hours.left` as example):
+To display any of the above information on your `BetterTouchTool` preset, simply add a "Shell Script/Task Widget" and then paste the following in (using `tocco.battery.hours_left` as example):
 
 ```bash
 /usr/local/bin/python3 -c "import tocco; print(tocco.battery.hours_left)"
