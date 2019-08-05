@@ -30,8 +30,8 @@ print(tocco.cpu.temperature.C)
 print(tocco.cpu.temperature.F)
 
 # GPU
-print(tocco.cpu.temperature.C)
-print(tocco.cpu.temperature.F)
+print(tocco.gpu.temperature.C)
+print(tocco.gpu.temperature.F)
 
 # Fan
 print(tocco.fans.rpm)
