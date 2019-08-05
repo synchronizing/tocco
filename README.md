@@ -33,6 +33,9 @@ print(tocco.cpu.temperature.F)
 print(tocco.cpu.temperature.C)
 print(tocco.cpu.temperature.F)
 
+# Fan
+print(tocco.fans.rpm)
+
 # Disk
 print(tocco.disk.total)
 print(tocco.disk.used)
