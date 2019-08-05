@@ -29,6 +29,10 @@ print(tocco.cpu.percent)
 print(tocco.cpu.temperature.C)
 print(tocco.cpu.temperature.F)
 
+# GPU
+print(tocco.cpu.temperature.C)
+print(tocco.cpu.temperature.F)
+
 # Disk
 print(tocco.disk.total)
 print(tocco.disk.used)
