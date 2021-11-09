@@ -1,1 +1,1 @@
-from tocco.info import *
+from .tocco import *

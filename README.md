@@ -1,21 +1,15 @@
-# 👆🏼Tocco
+# 👆🏼 tocco
 ### Italian for Touch
 
-This is a collection of useful Python commands that was created to be utilized with `Simple`, an upcoming [`BetterTouchTool`](https://folivora.ai/) snippet being created for simplicity, and intuition. While `Simple` has not yet been published, `Tocco` has been made open-source if other developers would wish to use it.
+A tool for easily getting information about the current computer. Intended for use with [`BetterTouchTool`](https://folivora.ai/). 
 
 ## Installing
 
-For `Tocco` to work you must first install some dependencies. You may either do so manually by following the instructions below, or by running the `setup_tocco.sh` file within the root directory of this project.
+```
+/bin/bash -c "$(curl -fsSL https://github.com/synchronizing/tocco/blob/master/setup.sh)"
+```
 
-1. Install iStats via gem, `sudo gem install iStats`
-2. Install Brew via [brew.sh](https://brew.sh)
-3. Install Python3 via brew, `brew install python3`
-4. Install Tocco via Python3, `/usr/local/bin/python3 -m pip install git+http://github.com/synchronizing/Tocco`
-5. Install `Simple` (coming soon!)
-
-## Using `Tocco`
-
-`Tocco` was made to be as easy as possible to be used:
+## Using
 
 ```python
 import tocco
